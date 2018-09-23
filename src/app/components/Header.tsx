@@ -43,12 +43,19 @@ class Header extends React.Component<Props> {
             xs={10}
             style={{ display: 'flex', justifyContent: 'space-between' }}
           >
-            <Typography
-              style={{ display: 'flex', alignItems: 'center' }}
-              variant="title"
-            >
-              Mark IT
-            </Typography>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+              <img
+                src={'logo.png'}
+                style={{ backgroundSize: 'contain', maxHeight: '4em' }}
+              />
+              <div style={{ width: '1em' }} />
+              <Typography
+                style={{ display: 'flex', alignItems: 'center' }}
+                variant="title"
+              >
+                MarkIT
+              </Typography>
+            </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <Link className={classes.link} to="/">
                 <Typography
