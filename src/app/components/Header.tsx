@@ -43,7 +43,12 @@ class Header extends React.Component<Props> {
             xs={10}
             style={{ display: 'flex', justifyContent: 'space-between' }}
           >
-            <div />
+            <Typography
+              style={{ display: 'flex', alignItems: 'center' }}
+              variant="title"
+            >
+              Mark IT
+            </Typography>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <Link className={classes.link} to="/">
                 <Typography
